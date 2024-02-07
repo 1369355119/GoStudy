@@ -1,0 +1,5 @@
+使用github.com/golang-jwt/jwt/v4生成JWT和解析JWT
+
+gin框架中使用JWT：
+1、在Controller中，比如login接口时调用生成JWT Token，并返回
+2、实现一个检验Token的中间件jwt
